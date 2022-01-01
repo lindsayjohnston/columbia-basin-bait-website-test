@@ -6,7 +6,7 @@ const menuLandscape = (props) =>{
       <div className="menuLandscape">
             <div className="title" >
                 <a href= "#top">
-                  <h1>Columbia Basin Bait</h1>
+                  <h1>Columbia Basin Bait (Example)</h1>
                 </a>
             </div>
             <div className="sectionLinks">

@@ -13,7 +13,7 @@ const menuPortrait = (props) =>{
       <div className="menuPortrait">
             <div className="title">
                 <a href="#top">
-                    <h1>Columbia Basin Bait</h1>
+                    <h1>Columbia Basin Bait (Example)</h1>
                 </a>
             </div>
             <div className="hamburgerMenuDiv">
