@@ -5,7 +5,7 @@
     background-color: var(--dark-color);
     color: var(--light-color);
     width: 100%;
-    min-width: 300px;
+    min-width: 366px;
     height: 10vh;
     max-height: 70px;
     display: flex;

@@ -1,8 +1,8 @@
 :root{
-  --dark-color: #0C3B2E;
-  --main-color:  #FFBA00;
-  --light-color: #FFFFFF;
-  --secondary-color: #6D9773;
+  --dark-color: #060724;
+  --main-color:  #614233;
+  --light-color:  #EDECED;
+  --secondary-color: #b6d7a8;
   /* --accent-color: #5c5c5c; */
 }
 
@@ -12,7 +12,7 @@ html{
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
   /* 100,400,700 font weights */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

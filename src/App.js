@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import MainBodyLandscape from '../src/components/landscape/MainBodyLandscape/MainBodyLandscape';
 import MainBodyPortrait from '../src/components/portrait/MainBodyPortrait/MainBodyPortrait';
-import topImage from '../src/media/images/assorted-flowers.jpg';
-import locationImage from '../src/media/images/daisies.jpg';
-import aboutImage from '../src/media/images/monstera.jpg';
+import topImage from '../src/media/images/man-fishing.jpg';
+import locationImage from '../src/media/images/kid-fish.jpg';
+import aboutImage from '../src/media/images/tackle-box.jpg';
 import contactImage from '../src/media/images/red-phone.jpg';
 
 
@@ -27,13 +27,13 @@ class App extends React.Component {
         image: topImage,
         content1: 
         <button>
-          <a href="https://www.facebook.com/pages/The%20Flower%20Farm/154212651281145/" target="_blank" rel="noreferrer">Like us on Facebook!</a> 
+          <a href="https://www.facebook.com/columbiabasin.bait/" target="_blank" rel="noreferrer">Like us on Facebook!</a> 
         </button>, 
         content2:
           <div>
-            <h1 className="paddingBottom10px">A Tri-Cities staple for over 20 years.</h1>
+            <h1 className="paddingBottom10px">Dedicated to making the best bait to help you catch more fish! </h1>
             
-            <p className="paddingBottom10px">Your local resource for all things garden.</p>
+            <p className="paddingBottom10px">Find us in your local outdoor retailer!</p>
            
           </div>,
         },
@@ -43,14 +43,9 @@ class App extends React.Component {
         content1: 
           <div>
             <p>
-            Open Everyday </p>
-            <br></br>
-            <p> 9:00AM — 5:00PM </p>
-            <br></br>
+            83508 Harrington Rd</p>
             <p>
-            311 South Columbia Center Blvd </p>
-            <p>
-            Kennewick, WA 99336 </p>
+            West Richland, WA 99353 </p>
           </div> 
           ,
         content2: null
@@ -60,11 +55,11 @@ class App extends React.Component {
         image: aboutImage,
         content1: 
           <div>
-            <h2 className="paddingBottom10px">Tri-Cities Flower Farm</h2>
-            <h3 className="paddingBottom10px">Serving our community for over 20 years.</h3>
+            <h2 className="paddingBottom10px">Columbia Basin Bait</h2>
+            <h3 className="paddingBottom10px"> Local family owned business.</h3>
           </div>,
         content2:
-          <p>We are here to serve the Tri-Cities with the best products and knowledge available to help your garden grow!</p>
+          <p>We're dedicated to making the best bait to help you catch more fish! Find us in your local outdoor retailer.</p>
         },
         { id: "contact",
         title: "Contact",
@@ -72,10 +67,13 @@ class App extends React.Component {
         content1: 
           <div>
             <h3>Call Us:</h3>
-            <p>(509) 735-3232</p>
-            <br></br>
+            <p>(509) 948-3845</p>
+            
+            <h3>E-mail:</h3>
+            <a href="mailto:columbiabasinbait@gmail.com">columbiabasinbait@gmail.com</a>
+           
             <h3>Social:</h3>
-            <a href="https://www.facebook.com/pages/The%20Flower%20Farm/154212651281145/about/?ref=page_internal" target="_blank" rel="noreferrer" >Facebook</a>
+            <a href="https://www.facebook.com/columbiabasin.bait/" target="_blank" rel="noreferrer" >Facebook</a>
           </div>
         },
     
