@@ -1,0 +1,71 @@
+.menuPortrait{
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    width: 100%;
+    min-width: 300px;
+    height: 10vh;
+    max-height: 70px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menuPortrait > .title{
+   padding: 2vw;
+   /* background-color: chartreuse; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.menuPortrait > .title > h1{
+    font-size: 4vh;
+    /* background-color: darkgrey; */
+ }
+
+.menuPortrait > .hamburgerMenuDiv{
+    /* background-color: crimson; */
+    display: flex;
+    /* width: 10vh; */
+    padding: 2vw;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer
+}
+
+.menuPortrait > .menuModal {
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background-color: var(--main-color);
+    width: 90vw;
+    /* display: none; */
+}
+
+.menuPortrait > .menuModal > .menuModalHeader {
+    /* background-color: thistle; */
+    height: 10vh;
+    max-height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.menuPortrait > .menuModal > .menuModalHeader > i {
+    padding-right: 2vw;
+    cursor: pointer;
+}
+
+.menuPortrait > .menuModal > .menuModalLinks{
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+

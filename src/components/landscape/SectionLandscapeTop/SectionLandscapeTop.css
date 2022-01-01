@@ -1,0 +1,59 @@
+.sectionLandscapeTop{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin-top: 90px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionLandscapeTop > .sectionHeadingDiv{
+    width: 100%;
+    /* background-color: blue; */
+    /* height: 80px; */
+    position: relative;
+    /* this is for the anchor link to be positioned above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.sectionLandscapeTop > .sectionHeadingDiv > .anchorLinkDiv {
+    position: absolute;
+    height: 90px;
+    top: -90px;
+}
+
+.sectionLandscapeTop > .content {
+    width: 100%;
+    height: 90%;
+    max-width: 900px;
+    /* background-color: coral; */
+    /* that's 2% of the parent width I think */
+    display: flex;
+    /* min-height: 300px; */
+}
+
+.sectionLandscapeTop > .content > .left {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionLandscapeTop > .content > .right {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+}
+
+.sectionLandscapeTop > .content > .right > .imageDiv > img{
+    width: 100%;
+    /* background-color: thistle; */
+}
+
+

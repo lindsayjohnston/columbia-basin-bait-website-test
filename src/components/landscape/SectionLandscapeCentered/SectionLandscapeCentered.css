@@ -1,0 +1,65 @@
+.sectionLandscapeCentered{
+    background-color: var(--main-color);
+    color: var(--light-color);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionLandscapeCentered > .sectionHeadingDiv{
+    width: 100%;
+    /* background-color: blue; */
+    height: 80px;
+    position: relative;
+    /* this is for the anchor link to be positioned above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.sectionLandscapeCentered > .sectionHeadingDiv > .anchorLinkDiv {
+    position: absolute;
+    height: 90px;
+    top: -90px;
+}
+
+.sectionLandscapeCentered > .content {
+    width: 100%;
+    height: 80%;
+    max-width: 900px;
+    /* background-color: coral; */
+    /* that's 2% of the parent width I think */
+    display: flex;
+}
+
+.sectionLandscapeCentered > .content > .left {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionLandscapeCentered > .content > .left > .imageDiv{
+    width: 100%;
+    height: 100%;
+    /* background-color: thistle; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionLandscapeCentered > .content > .left > .imageDiv >img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+.sectionLandscapeCentered > .content > .right {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+}
+
+

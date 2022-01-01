@@ -1,0 +1,73 @@
+.sectionLandscapeTitleRight{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionLandscapeTitleRight > .sectionHeadingDiv{
+    width: 100%;
+    /* background-color: blue; */
+    height: 80px;
+    position: relative;
+    /* this is for the anchor link to be positioned above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.sectionLandscapeTitleRight > .sectionHeadingDiv > .anchorLinkDiv {
+    position: absolute;
+    height: 90px;
+    top: -90px;
+}
+
+
+.sectionLandscapeTitleRight > .content {
+    width: 100%;
+    height: 80%;
+    max-width: 900px;
+    /* background-color: coral; */
+    /* that's 2% of the parent width I think */
+    display: flex;
+
+}
+
+.sectionLandscapeTitleRight > .content > .left {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+}
+
+.sectionLandscapeTitleRight > .content > .left {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionLandscapeTitleRight > .content > .left > .imageDiv{
+    width: 100%;
+    height: 100%;
+    /* background-color: thistle; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionLandscapeTitleRight > .content > .left > .imageDiv >img{
+    /* width: 100%; */
+    height: 100%;
+}
+
+
+.sectionLandscapeTitleRight > .content > .right {
+    width: 50%;
+    /* border: 1px solid black; */
+    padding: 2%;
+}
+

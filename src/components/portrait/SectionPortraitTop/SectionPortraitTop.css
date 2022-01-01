@@ -1,0 +1,61 @@
+.sectionPortraitTop{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    /* margin-top: 10vh; */
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionPortraitTop > .sectionHeadingDiv{
+    width: 100%;
+    /* background-color: blue; */
+    height: 8vh;
+    position: relative;
+    /* this is for the anchor link to be positioned above */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sectionPortraitTop > .sectionHeadingDiv > .anchorLinkDiv {
+    position: absolute;
+    height: 10vh;
+    top: -10vh;
+}
+
+.sectionPortraitTop > .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* min-height: 300px; */
+}
+
+.sectionPortraitTop > .content > div {
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPortraitTop > .content > div > .imageDiv{
+    /* width: 100%; */
+    /* background-color: thistle; */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionPortraitTop > .content > div > .imageDiv >img{
+    height: 90%;
+}
+
+
+
+
