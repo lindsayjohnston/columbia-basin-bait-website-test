@@ -1,0 +1,19 @@
+.footer{
+   display: flex;
+   justify-content: center;
+}
+
+.footer p{
+    color: var(--dark-color);
+    margin: 0;
+    font-size: small;
+}
+.footer p:hover{
+    color: var(--main-color)
+}
+
+/* TEST */
+/* TEST */
+/* TEST */
+/* TEST */
+/* TEST */
