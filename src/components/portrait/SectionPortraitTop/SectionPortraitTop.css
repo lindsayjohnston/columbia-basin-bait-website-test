@@ -6,12 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .sectionPortraitTop > .sectionHeadingDiv{
     width: 100%;
     /* background-color: blue; */
-    height: 8vh;
+    height: 7vh;
     position: relative;
     /* this is for the anchor link to be positioned above */
     display: flex;
@@ -35,27 +36,31 @@
 }
 
 .sectionPortraitTop > .content > div {
-    /* width: 100%; */
+    width: 100%;
     /* border: 1px solid black; */
-    padding: 2%;
+    /* padding: 2%; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .sectionPortraitTop > .content > div > .imageDiv{
     /* width: 100%; */
     /* background-color: thistle; */
-    height: 50vh;
+    /* height: 50vh; */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
 }
 
 .sectionPortraitTop > .content > div > .imageDiv >img{
     /* height: 90%; */
-    max-width: 100vw;
+    width: 100%;
+    /* max-width: 100vw; */
     min-width: 366px;
+    max-height: 100%;
 }
 
 

@@ -26,9 +26,8 @@ class App extends React.Component {
         title: null,
         image: topImage,
         content1: 
-        <button>
-          <a href="https://www.facebook.com/columbiabasin.bait/" target="_blank" rel="noreferrer">Like us on Facebook!</a> 
-        </button>, 
+          <a className="linkButton" href="https://www.facebook.com/columbiabasin.bait/" target="_blank" rel="noreferrer">Like us on Facebook!</a> 
+        , 
         content2:
           <div>
             <h1 className="paddingBottom10px">Dedicated to making the best bait to help you catch more fish! </h1>
